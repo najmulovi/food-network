@@ -1,4 +1,49 @@
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
+}
+
+.top-section {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.top-left-details {
+    margin: 90px 40px 20px 70px;
+}
+
+.top-left-details p {
+    margin-bottom: 50px;
+    color: gray;
+    margin-right: 5px;
+}
+
+.top-left-details a {
+    background: linear-gradient(orange, orangered);
+    padding: 15px 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    border-radius: 30px;
+
+}
+
+
+.top-right-img img {
+    width: 500px;
+    height: 500px;
+    margin-top: 60px;
+    padding-left: 40px;
+}
+
+
+.orange-color {
+    color: orange;
 }
