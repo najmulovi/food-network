@@ -7,6 +7,10 @@ body {
     width: 50%;
 }
 
+.one-third {
+    width: 33%;
+}
+
 h1 {
     font-size: 50px;
 }
@@ -27,6 +31,56 @@ h3 {
 .orange-color {
     color: orange;
 }
+
+/* Nav Bar Section CSS */
+
+nav {
+    display: flex;
+    background: #FC8F49;
+    height: 80px;
+    width: 100%;
+
+}
+
+nav img {
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+    padding-left: 300px;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+nav ul li a.active,
+a:hover {
+    background: tomato;
+    padding: 5px 5px;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+/* ================================ */
+
+
+/* Order/Top Section CSS */
 
 .top-section {
     margin-bottom: 80px;
@@ -57,13 +111,17 @@ h3 {
 
 }
 
-
 .top-right-img img {
     width: 600px;
     height: 600px;
     margin-top: 40px;
     padding-right: 80px;
 }
+
+/* ================================ */
+
+
+/* About Me / Middle Section CSS */
 
 .middle-section {
     background-image: url(images/shapes/7.png);
@@ -104,6 +162,11 @@ h3 {
     border-radius: 30px;
 }
 
+/* ==================================== */
+
+
+/* Recipie / Bottom Section CSS */
+
 .bottom-section {
     margin-bottom: 80px;
 }
@@ -135,9 +198,6 @@ h3 {
     font-weight: 500;
 }
 
-.one-third {
-    width: 33%;
-}
 
 .recipie-details img {
     width: 100%;
@@ -159,6 +219,11 @@ h3 {
 #recipie-three {
     margin-right: 100px;
 }
+
+/* ============================== */
+
+
+/* Social / User Section CSS */
 
 .user-section {
     border: 5px solid white;
@@ -189,6 +254,11 @@ h3 {
     color: grey;
 }
 
+/* =============================== */
+
+
+/* Footer Section CSS */
+
 .foot-section {
     text-align: center;
     background: black;
@@ -203,3 +273,5 @@ h3 {
 .foot-section p {
     color: white;
 }
+
+/* ============================= */
