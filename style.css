@@ -5,6 +5,7 @@ body {
 
 .top-section {
     display: flex;
+    margin-bottom: 80px;
 }
 
 .half-width {
@@ -13,6 +14,10 @@ body {
 
 h1 {
     font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
 }
 
 .top-left-details {
@@ -46,6 +51,43 @@ h1 {
     height: 600px;
     margin-top: 40px;
     padding-right: 80px;
+}
+
+.middle-section {
+    display: flex;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+
+.middle-left-img img {
+    width: 250px;
+    height: 400px;
+    padding-top: 50px;
+    padding-left: 230px;
+}
+
+.middle-right-details {
+    padding-top: 90px;
+}
+
+.middle-right-details h2 {
+    color: rgb(85, 84, 84);
+    font-weight: 700;
+}
+
+.middle-right-details p {
+    margin-bottom: 80px;
+    color: gray;
+    width: 85%;
+}
+
+.middle-right-details a {
+    background: linear-gradient(orange, orangered);
+    padding: 15px 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    border-radius: 30px;
 }
 
 
