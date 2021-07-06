@@ -15,6 +15,11 @@ h2 {
     font-size: 40px;
 }
 
+h3 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
 .flexible {
     display: flex;
 }
@@ -71,6 +76,7 @@ h2 {
 
 .middle-right-details {
     padding-top: 90px;
+    padding-left: 30px;
 }
 
 .middle-right-details h2 {
@@ -82,6 +88,7 @@ h2 {
     margin-bottom: 80px;
     color: gray;
     width: 85%;
+    text-align: justify;
 }
 
 .middle-right-details a {
@@ -93,26 +100,60 @@ h2 {
     border-radius: 30px;
 }
 
+.bottom-section {
+    margin-bottom: 80px;
+}
+
 .bottom-top {
     text-align: center;
+    margin-bottom: 30px;
+}
+
+.bottom-top h2 {
+    color: grey;
+    font-weight: 900;
+
 }
 
 .bottom-top p {
     width: 600px;
-    padding-left: 350px;
+    padding-left: 380px;
+    color: gray;
+}
+
+.all-recipie {
+    width: 98%;
+}
+
+.all-recipie p {
+    text-align: justify;
+    color: gray;
+    font-weight: 500;
 }
 
 .one-by-three-width {
     width: 33%;
+    border: 5px solid white;
+    border-radius: 25px;
+    box-shadow: -10px 15px 20px 10px #c2c0c0;
+    margin-right: 40px;
 }
 
 .one-by-three-width img {
-    width: 70%;
+    width: 100%;
     height: 200px;
 }
 
 .recipie-details {
     padding: 20px;
+}
+
+#recipie-one {
+    margin-left: 120px;
+}
+
+#recipie-three {
+    margin-right: 100px;
 }
 
 .orange-color {
