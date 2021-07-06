@@ -225,7 +225,7 @@ a:hover {
 
 /* Social / User Section CSS */
 
-.user-section {
+.social-area {
     border: 5px solid white;
     border-radius: 10px;
     box-shadow: -8px 10px 20px 10px #d4d3d3;
@@ -239,14 +239,26 @@ a:hover {
     padding-right: 20px;
 }
 
+#youtube {
+    color: #F6834D;
+}
+
 .youtube {
     font-size: 15px;
     color: grey;
 }
 
+#instagram {
+    color: #469DA1;
+}
+
 .instagram {
     font-size: 15px;
     color: grey;
+}
+
+#dribbble {
+    color: #F63B4E;
 }
 
 .dribbble {
