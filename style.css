@@ -16,13 +16,18 @@ h1 {
 }
 
 .top-left-details {
-    margin: 90px 40px 20px 70px;
+    margin: 120px 40px 20px 110px;
+}
+
+.top-left-details h1 {
+    color: gray;
+    font-weight: 700;
 }
 
 .top-left-details p {
     margin-bottom: 50px;
     color: gray;
-    margin-right: 5px;
+    width: 85%;
 }
 
 .top-left-details a {
@@ -37,10 +42,10 @@ h1 {
 
 
 .top-right-img img {
-    width: 500px;
-    height: 500px;
-    margin-top: 60px;
-    padding-left: 40px;
+    width: 600px;
+    height: 600px;
+    margin-top: 40px;
+    padding-right: 80px;
 }
 
 
