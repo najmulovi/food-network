@@ -3,11 +3,6 @@ body {
     margin: 0;
 }
 
-.top-section {
-    display: flex;
-    margin-bottom: 80px;
-}
-
 .half-width {
     width: 50%;
 }
@@ -18,6 +13,14 @@ h1 {
 
 h2 {
     font-size: 40px;
+}
+
+.flexible {
+    display: flex;
+}
+
+.top-section {
+    margin-bottom: 80px;
 }
 
 .top-left-details {
@@ -54,9 +57,9 @@ h2 {
 }
 
 .middle-section {
-    display: flex;
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
+    margin-bottom: 50px;
 }
 
 .middle-left-img img {
@@ -90,6 +93,27 @@ h2 {
     border-radius: 30px;
 }
 
+.bottom-top {
+    text-align: center;
+}
+
+.bottom-top p {
+    width: 600px;
+    padding-left: 350px;
+}
+
+.one-by-three-width {
+    width: 33%;
+}
+
+.one-by-three-width img {
+    width: 70%;
+    height: 200px;
+}
+
+.recipie-details {
+    padding: 20px;
+}
 
 .orange-color {
     color: orange;
