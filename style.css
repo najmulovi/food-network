@@ -131,20 +131,20 @@ h3 {
     font-weight: 500;
 }
 
-.one-by-three-width {
+.one-third {
     width: 33%;
-    border: 5px solid white;
-    border-radius: 25px;
-    box-shadow: -10px 15px 20px 10px #c2c0c0;
-    margin-right: 40px;
 }
 
-.one-by-three-width img {
+.recipie-details img {
     width: 100%;
     height: 200px;
 }
 
 .recipie-details {
+    border: 5px solid white;
+    border-radius: 25px;
+    box-shadow: -10px 15px 20px 10px #c2c0c0;
+    margin-right: 40px;
     padding: 20px;
 }
 
@@ -154,6 +154,35 @@ h3 {
 
 #recipie-three {
     margin-right: 100px;
+}
+
+.user-section {
+    border: 5px solid white;
+    border-radius: 10px;
+    box-shadow: -8px 10px 20px 10px #d4d3d3;
+    margin-left: 120px;
+    margin-right: 127px;
+    margin-bottom: 80px;
+}
+
+.social {
+    padding-left: 110px;
+    padding-right: 20px;
+}
+
+.youtube {
+    font-size: 15px;
+    color: grey;
+}
+
+.instagram {
+    font-size: 15px;
+    color: grey;
+}
+
+.dribbble {
+    font-size: 15px;
+    color: grey;
 }
 
 .orange-color {
